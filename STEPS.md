@@ -33,3 +33,10 @@
 - defining a function that puts all objects into a list
 - creating a function that puts csv or xlsx files into panda dataframes
 - created a function that outputs a clean dataframe by searching for TXN DATE in the first column and takes this line as header. the function also removes Columns with nan
+
+## Word embedding
+
+- transformation from word into vector.
+- Mandatory to have to train any machine learnings models
+- Word2Vec is one embedding
+- Bert is steps of the art (deep learnings)
