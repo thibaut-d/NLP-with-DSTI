@@ -12,3 +12,12 @@
 - Push it: ```git push```
 - Actually for the first time we need to write:  ```git push --set-upstream origin develop```
 - See this directory in develop version on GitHub: <https://github.com/thibaut-d/NLP-with-DSTI/tree/develop>
+
+## Data Acquisition
+
+- receive data set from WeTransfer (ink thorugh Email)
+- create an S3 Bucket with (public) access for everyone who needs access
+    s3://dsti-ml-nlp-class/Data/
+    https://dsti-ml-nlp-class.s3.eu-west-3.amazonaws.com/Data/
+    e.g. for a specific file: https://dsti-ml-nlp-class.s3.eu-west-3.amazonaws.com/Data/Mr_Tochukwu_statement-part2.csv
+- upload the files
