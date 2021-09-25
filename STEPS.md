@@ -31,4 +31,5 @@
 - following boto3 instruction for setup 
     https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration
 - defining a function that puts all objects into a list
-- creating a function that puts csv files into panda dataframes
+- creating a function that puts csv or xlsx files into panda dataframes
+- created a function that outputs a clean dataframe by searching for TXN DATE in the first column and takes this line as header. the function also removes Columns with nan
