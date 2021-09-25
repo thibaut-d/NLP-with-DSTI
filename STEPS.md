@@ -21,3 +21,14 @@
     https://dsti-ml-nlp-class.s3.eu-west-3.amazonaws.com/Data/
     e.g. for a specific file: https://dsti-ml-nlp-class.s3.eu-west-3.amazonaws.com/Data/Mr_Tochukwu_statement-part2.csv
 - upload the files
+
+## Data Check
+
+- setting up a Jupyter notebook
+- using boto3 to connect to S3 bucket
+    AWS CLI is required for this on your machine
+    https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html
+- following boto3 instruction for setup 
+    https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration
+- defining a function that puts all objects into a list
+- creating a function that puts csv files into panda dataframes
